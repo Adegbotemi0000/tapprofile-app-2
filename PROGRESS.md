@@ -28,12 +28,13 @@ NFC/QR-based digital business card platform — tap or scan to share a profile i
 
 ## 🐛 Known Issues
 - No backend/persistence layer of any kind (`grep` for Supabase/Firebase/Prisma/MongoDB/API routes returned nothing)
-- No git remote configured — can't push
+- Original 2-commit history was squashed into one clean commit before pushing — it carried ~430MB of old `node_modules`/`.next` blobs that were never fully purged from history, which made pushing impossible. Full prior history is gone; only the current file state remains.
 - Default Next.js placeholder assets (`file.svg`, `globe.svg`, `next.svg`, `vercel.svg`, `window.svg`) still in `public/`, unused
 - `AGENTS.md` / `CLAUDE.md` present but not reviewed for currency in this pass
+- A stray empty repo `Adegbotemi0000/tapprofile-app` was also created while setting this up — safe to delete manually on github.com (I don't have delete permission with the current auth scope)
 
 ## 🔗 Links
-- GitHub: _not yet connected_
+- GitHub: https://github.com/Adegbotemi0000/tapprofile-app-2
 - Deployed: _not deployed_
 - Notion: https://app.notion.com/p/3cc2f05193ac81388074d332d238c2bf
 - Repo path: C:\Users\xc\Desktop\Tap profile Backup\tapprofile
